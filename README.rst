@@ -17,6 +17,10 @@ Board Pin  Name   Remarks      RPi Pin
 6          SD0    I2C address  GND: 0x76 VCC: 0x77      
 ========== ====== ============ =====================
 
+Check I2C device::
+
+    i2cdetect -y 1
+
 
 BME280 Sensor Driver
 ====================
