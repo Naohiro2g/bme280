@@ -1,3 +1,20 @@
+https://www.amazon.co.jp/dp/B01M98R905/
+https://ht-deko.com/arduino/i2c_bme280.html
+
+I2C Connection
+
+========== ====== ============ =====================
+Board Pin  Name   Remarks      RPi Pin  
+========== ====== ============ =====================
+1          VIN    +3.3V Power  3.3V                  
+2          GND    Ground       GND                  
+3          SCL    Clock        GPIO 3 (SCL)  
+4          SDA    Data         GPIO 2 (SDA) 
+5          CSB    Chip Select  NC
+6          SD0    I2C address  GND: 0x76 VCC: 0x77      
+========== ====== ============ =====================
+
+
 BME280 Sensor Driver
 ====================
 .. image:: https://travis-ci.org/rm-hull/bme280.svg?branch=master
